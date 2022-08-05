@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/nel/Documents/contd'
+cc    -c -o testvm.o testvm.c
+cc    -c -o vmalgorithm.o vmalgorithm.c
+gcc testvm.o vmalgorithm.o -o testvm 
+make: Leaving directory '/home/nel/Documents/contd'
+ 
